@@ -1,0 +1,241 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #6441A5 0%, #2a0845 100%);
+  color: #22223b;
+  line-height: 1.6;
+}
+header .logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 18px;
+  margin-top: -10px;
+  filter: drop-shadow(0 2px 8px rgba(44,44,84,0.15));
+}
+header {  
+  background-image: url('../img/digitalon.jpg'); /* Caminho relativo ou absoluto */
+  background-size: cover;       /* Ajusta a imagem para cobrir todo o elemento */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-position: center;  /* Centraliza a imagem */
+  color: #fff; 
+  padding: 40px 0 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f9c74f;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: #22223b;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(58, 134, 255, 0.07);
+}
+
+h2 {
+  color: #3a86ff;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.service {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: #f1f3f8;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 6px 24px rgba(131, 56, 236, 0.08);
+}
+
+.service h3 {
+  color: #8338ec;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.service p {
+  color: #22223b;
+  font-size: 1rem;
+}
+
+/*about*/
+
+#about {
+  background: linear-gradient(90deg, #f9c74f 60%, #f1f3f8 100%);
+  color: #22223b;
+  box-shadow: 0 2px 12px rgba(249, 199, 79, 0.08);
+}
+
+#about h2 {
+  color: #22223b;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  flex: 1 1 220px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.about-img {
+  display: block;
+  max-width: 180px;   /* Limita a largura máxima */
+  max-height: 180px;  /* Limita a altura máxima */
+  width: auto;
+  height: auto;
+  margin: 0 auto 12px auto; /* Centraliza e dá espaço abaixo */
+  border-radius: 12px;
+  object-fit: cover; /* Mantém proporção e evita cortes */
+  box-shadow: 0 2px 12px rgba(58, 134, 255, 0.10);
+}
+/*contact*/
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact label {
+  font-weight: 500;
+  color: #3a86ff;
+}
+
+#contact input {
+  padding: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+#contact input:focus {
+  border: 1.5px solid #3a86ff;
+  outline: none;
+}
+
+#contact button {
+  background: linear-gradient(90deg, #3a86ff 60%, #8338ec 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+#contact button:hover {
+  background: linear-gradient(90deg, #8338ec 60%, #3a86ff 100%);
+  transform: scale(1.03);
+}
+
+footer {
+  background: #22223b;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 40px;
+  border-radius: 0 0 16px 16px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background: #25d366;
+  border-radius: 50%;
+  padding: 14px;
+  box-shadow: 0 2px 8px rgba(44,44,84,0.15);
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  background: #128c7e;
+}
+
+.whatsapp-float i {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  section {
+    padding: 18px 6px;
+  }
+  .service {
+    flex-direction: column;
+    gap: 6px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

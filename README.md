@@ -1,5 +1,6 @@
 🖥️ Digital On – Landing Page
 Digital On é uma landing page moderna e responsiva desenvolvida com as tecnologias fundamentais da web: HTML, CSS e JavaScript. O projeto tem como objetivo apresentar de forma atrativa os serviços digitais oferecidos por uma empresa ou profissional, com foco em conversão e experiência do usuário.
+
 🚀 Funcionalidades
 - Estrutura semântica com HTML5
 - Estilo visual elegante e responsivo com CSS3

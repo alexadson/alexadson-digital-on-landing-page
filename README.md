@@ -14,7 +14,9 @@ Digital On é uma landing page moderna e responsiva desenvolvida com as tecnolog
 
 
 📸 Prévia
-Insira aqui uma imagem ou link para visualizar a landing page em funcionamento.
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/daf9166d-e07c-4a62-a8f5-f982f4bbfc71" />
+
+
 📂 Como usar
 - Clone o repositório:
 git clone https://github.com/seu-usuario/digital-on-landing-page.git
